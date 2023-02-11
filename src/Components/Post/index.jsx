@@ -5,8 +5,8 @@ function Post( { post } ) {
     const { title, body } = post;
 
     return (
-        <Col>
-            <Card style={{ width: '18rem' }}>
+        <Col sm={12} md={6} xl={3}>
+            <Card>
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>
                     <Card.Text>
