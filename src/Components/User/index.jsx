@@ -24,7 +24,7 @@ function User({ user }) {
                 </Card>
             </Col>
 
-            { show && <AlbumsModal handleClose={handleClose} show={show} user={user} /> }
+            <AlbumsModal handleClose={() => handleClose()} show={show} user={user} />
         </>
     )
 }

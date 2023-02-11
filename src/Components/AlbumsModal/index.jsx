@@ -25,7 +25,7 @@ function AlbumsModal({ show, handleClose, user }) {
 
             </Modal.Body>
             <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
+                <Button variant="secondary" onClick={() => handleClose()}>
                     Close
                 </Button>
             </Modal.Footer>
